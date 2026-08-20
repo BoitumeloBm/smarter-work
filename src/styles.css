@@ -152,5 +152,46 @@
   body {
     background-color: var(--color-background);
     color: var(--color-foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1,
+  h2,
+  h3 {
+    letter-spacing: -0.02em;
   }
 }
+
+@utility card-surface {
+  background-color: var(--color-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-card);
+  transition:
+    box-shadow 200ms ease,
+    transform 200ms ease;
+}
+
+@utility card-interactive {
+  &:hover {
+    box-shadow: var(--shadow-card-hover);
+    transform: translateY(-2px);
+  }
+}
+
+@utility editable {
+  border-radius: var(--radius-md);
+  outline: none;
+  transition:
+    background-color 150ms ease,
+    box-shadow 150ms ease;
+  &:hover {
+    background-color: var(--color-muted);
+  }
+  &:focus {
+    background-color: var(--color-card);
+    box-shadow: 0 0 0 2px var(--color-ring);
+  }
+}
+
