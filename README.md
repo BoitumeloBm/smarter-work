@@ -143,6 +143,14 @@ A visible disclaimer at the bottom of every feature page:
 | **Live Application** | [https://smarter-work.lovable.app/task-planner](https://smarter-work.lovable.app/task-planner) |
 | **GitHub Repository** | [https://github.com/BoitumeloBm/smarter-work](https://github.com/BoitumeloBm/smarter-work) |
 ---
+📊 Submission Links
+┌─────────────────────────────────────────────────────────────┐
+│ Item              │ Link                                    │
+│───────────────────│─────────────────────────────────────────│
+│ Live App          │ https://smarter-work.lovable.app       │
+│ GitHub Repo       │ https://github.com/BoitumeloBm/        │
+│ Presentation      │ https://drive.google.com/file/d/...    │
+└─────────────────────────────────────────────────────────────┘
 
 ## 🚀 Getting Started
 
